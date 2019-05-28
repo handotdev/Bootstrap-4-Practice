@@ -10,6 +10,7 @@
 
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Review</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/220px-Boostrap_logo.svg.png">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,11 +18,63 @@
   </head>
   <body>
 
+    <div class="container my-5">
 
-    <div class="row top">
-      <div class="col-sm-4">Hello</div>
-      <div class="col-sm-4">Hi</div>
-      <div class="col-sm-4"><p class="text-success">Hey</p></div>
+    <div class="row top mb-5">
+      <div class="col-sm-1">Hello</div>
+      <div class="col-sm-5">Hi</div>
+      <div class="col-sm-6">Hi</div>
+    </div>
+
+    <table class="table table-borderless table-hover mb-5">
+      <thead class="thead-light">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>John</th>
+          <th>Doe</th>
+          <th>jdoe@google.com</th>
+        </tr>
+        <tr>
+          <th>Steve</th>
+          <th>Smith</th>
+          <th>ssmith@google.com</th>
+        </tr>
+        <tr>
+          <th>Bill</th>
+          <th>Ratty</th>
+          <th>bratty@google.com</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <img src="img/picture.png" class="rounded-circle mb-5" alt="Picture">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1>Tutorial</h1>
+        <p>Han is the coolest person</p>
+      </div>
+    </div>
+
+    <div class="text-success bg-light shadow-sm mb-5 mx-5">Shadow</div>
+
+    <div class="bg-light shadow-sm mx-auto mb-5" style="width:200px;">Shadow #2</div>
+
+    <div class="alert alert-success alert-dismissible fade show">
+      <strong>Haha!</strong> I was right.
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+
+    <button type="button" class="btn btn-outline-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+      Primary</button>
+
     </div>
 
     <!-- jQuery library -->
